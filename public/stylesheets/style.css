@@ -87,6 +87,10 @@
   margin-bottom: 10px;
 }
 
+#portfolio-footer {
+  margin-bottom: 50px;
+}
+
 *,
 *::before,
 *::after {
@@ -3966,7 +3970,7 @@ textarea.form-control-lg {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0rem 1rem;
   color: #bd5d38;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -7398,7 +7402,8 @@ textarea.form-control-lg {
 }
 
 .mb-4 {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 0rem !important;
+  margin-right: 30px;
 }
 
 .mb-5 {
