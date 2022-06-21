@@ -64,6 +64,29 @@
   --bs-body-bg: #fff;
 }
 
+.form-row  h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.col {
+  margin: 5px;
+}
+
+.coll {
+  margin-left: 20px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.text-area {
+  margin-left: 20px;
+}
+
+.text-area label{
+  margin-bottom: 10px;
+}
+
 *,
 *::before,
 *::after {
