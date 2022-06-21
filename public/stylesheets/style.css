@@ -16,7 +16,7 @@
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
-  --bs-orange: #bd5d38;
+  --bs-orange: #31217e;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
   --bs-teal: #20c997;
@@ -75,8 +75,9 @@
 
 .coll {
   margin-left: 20px;
-  margin-top: -20px;
+  margin-top: 20px;
   margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 .text-area {
@@ -4062,8 +4063,8 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 .navbar > .container,
 .navbar > .container-fluid,
