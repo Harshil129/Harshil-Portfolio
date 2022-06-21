@@ -21,6 +21,10 @@ router.get('/about', (req, res, next) => {res.render('about',
      });
   });
 
-module.exports = router;
+  router.get('/projects', (req, res, next) => {res.render('projects');
+  });
+
+  router.get('/contact', (req, res, next) => {res.render('contact');
+  });
 
 module.exports = router;
