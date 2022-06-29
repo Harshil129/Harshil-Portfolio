@@ -33,7 +33,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #bd5d38;
+  --bs-primary: #1b5c72;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -112,7 +112,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: #ffffff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -120,7 +120,7 @@ body {
 hr {
   margin: 1rem 0;
   color: inherit;
-  background-color: currentColor;
+  background-color: #1b5c72;
   border: 0;
   opacity: 0.25;
 }
@@ -265,12 +265,22 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #1b5c72;
   text-decoration: underline;
 }
-a:hover {
-  color: #974a2d;
+
+/* a:hover {
+  color: #1b5c72;
 }
+
+p:hover {
+  color: #1b5c72;
+}
+
+div:hover {
+  color: #1b5c72
+} */
+
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
@@ -3972,7 +3982,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0rem 1rem;
-  color: #bd5d38;
+  color: #1b5c72;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3982,7 +3992,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #974a2d;
+  color: #1b5c72;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -7748,7 +7758,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #1b5c72 !important;
 }
 
 .text-secondary {
@@ -7839,7 +7849,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #1b5c72/*rgba(var(--bs-primary-rgb), var(--bs-bg-opacity))*/ !important; 
 }
 
 .bg-secondary {
@@ -11320,7 +11330,7 @@ textarea.form-control-lg {
 }
 body {
   padding-top: 3.375rem;
-  color: #6c757d;
+  color: #1b5c72;
 }
 
 @media (min-width: 992px) {
