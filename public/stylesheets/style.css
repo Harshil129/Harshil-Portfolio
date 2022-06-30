@@ -6780,10 +6780,11 @@ textarea.form-control-lg {
 
 .d-flex {
   display: flex !important;
+  margin-left: 25px;
 }
 
-.dd-flex {
-  margin-left: 40px;
+.d2-flex {
+  margin-left: -15px;
 }
 
 .d-inline-flex {
@@ -7077,6 +7078,7 @@ textarea.form-control-lg {
 
 .flex-grow-1 {
   flex-grow: 1 !important;
+  margin-left: -23px;
 }
 
 .flex-shrink-0 {
