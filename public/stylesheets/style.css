@@ -67,10 +67,11 @@
 .form-row  h2 {
   margin-top: 50px;
   margin-bottom: 50px;
+  margin-left: 20px;
 }
 
 .col {
-  margin: 5px;
+  margin: 20px;
 }
 
 .coll {
@@ -6779,6 +6780,10 @@ textarea.form-control-lg {
 
 .d-flex {
   display: flex !important;
+}
+
+.dd-flex {
+  margin-left: 40px;
 }
 
 .d-inline-flex {
