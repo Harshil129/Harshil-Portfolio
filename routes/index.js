@@ -17,14 +17,20 @@ router.get('/', function(req, res, next) {
 router.get('/about', (req, res, next) => {res.render('about', 
      { 
         email: "contact@company.com",
-        title: "About our Project"
+        title: "About Me"
      });
   });
 
-  router.get('/projects', (req, res, next) => {res.render('projects');
+  router.get('/projects', (req, res, next) => {res.render('projects',
+    {
+        title: "My Projects"
+    });
   });
 
-  router.get('/contact', (req, res, next) => {res.render('contact');
+  router.get('/contact', (req, res, next) => {res.render('contact',
+    {
+        title: "Contact Me"
+    });
   });
 
 module.exports = router;
